@@ -45,7 +45,7 @@ private val LocalTypography = staticCompositionLocalOf<TypographyPalette> {
 }
 
 @Composable
-fun NetflixTheme(
+fun AppTheme(
     isDark: Boolean = isSystemInDarkTheme(),
     language: String = Locale.getDefault().displayLanguage,
     content: @Composable () -> Unit
