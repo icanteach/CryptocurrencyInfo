@@ -68,7 +68,7 @@ fun AppTheme(
         MaterialTheme(
             colors = debugColors(isDark)
         ) {
-            ProvideNetflixTheme(
+            ProvideAppTheme(
                 themePalette = colors,
                 typographyPalette = typographyStyle,
                 content = content
@@ -90,7 +90,7 @@ fun AppTheme(
 
 
 @Composable
-private fun ProvideNetflixTheme(
+private fun ProvideAppTheme(
     themePalette: ThemePalette,
     typographyPalette: TypographyPalette,
     content: @Composable () -> Unit
